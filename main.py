@@ -39,13 +39,13 @@ def welcome():
     
     '''Displays welcome message.'''
     
-    print(fd.lnsep(40),
+    print(fd.lnsep(60),
           'Welcome!\n',
           'In order to exit type in \'exit\', \'quit\' or \'terminate\'.\n',
           'After specyfing file path and motif seq type:\n',
-          '\'print\' to display output directly in console\n',
-          '\'save\' to save file to specified file path\n',
-          fd.lnsep(40), 
+          '>\'print\' to display output directly in console\n',
+          '>\'save\' to save file to specified file path\n',
+          fd.lnsep(60), 
           sep = '', end = '')
 
 def filepath(terminate):
