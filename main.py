@@ -6,6 +6,7 @@ Created on Sat Apr  2 16:07:40 2022
 
 @author: f1lem0n
 """
+
 import sys
 import finder as fd
 from datetime import datetime
